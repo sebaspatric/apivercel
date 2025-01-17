@@ -1,9 +1,9 @@
-try {
-  require.resolve("pg");
-} catch (e) {
-  console.log("Instalando pg...");
-  require("child_process").execSync("npm install pg --save", { stdio: "inherit" });
-}
+//try {
+//  require.resolve("pg");
+//} catch (e) {
+//  console.log("Instalando pg...");
+//  require("child_process").execSync("npm install pg --save", { stdio: "inherit" });
+//}
 
 const express = require("express");
 const app = express();
