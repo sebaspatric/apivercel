@@ -41,6 +41,14 @@ La aplicación permite a los administradores gestionar usuarios, bootcamps y asi
    ```
 
 ## Rutas del Backend
+** debes edtitar las variables de entorno segun tu base de datos ```
+  #PORT=5001
+  #TOKEN_KEY=mi_clave_secreta
+  #DB_HOST= localhost
+  #DB_USER=node_user
+  #DB_PASSWORD=node_password
+  #DB_NAME=db_jwtbootcamp2
+```
 
 ### **Autenticación de Usuario**
 
