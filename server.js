@@ -43,7 +43,7 @@ db.sequelize.authenticate()
 
 
   db.sequelize.sync({
-    force: true
+    force: false
   }).then(() => {
     console.log('Eliminando y resincronizando la base de datos.')
     //run()
